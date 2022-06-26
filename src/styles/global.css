@@ -1,0 +1,14 @@
+section,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+li,
+img,
+div,
+p,
+img {
+  transition: width 1s ease-in-out, left 1.5s ease-in-out;
+}

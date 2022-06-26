@@ -1,0 +1,16 @@
+/** @type {import('tailwindcss').Config} */
+module.exports = {
+  content: ["./index.html", "./src/**/*.{jsx,js}"],
+  darkMode: "class",
+  theme: {
+    extend: {
+      fontFamily: {
+        inter: ["inter", "sans-serif"],
+      },
+      // backgroundImage: {
+      //   Hero: "url('assets/Background.png')",
+      // },
+    },
+  },
+  plugins: [],
+};
