@@ -7,7 +7,6 @@ import "../src/styles/global.css";
 import About from "./components/About";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import HeroSection from "./components/HeroSection";
 import Services from "./components/Services";
 import Works from "./components/Works";
 const App = () => {
@@ -49,7 +48,7 @@ const App = () => {
 
       <div className="font-inter bg-white dark:bg-slate-800">
         <div className="max-w-5xl mx-auto w-11/12">
-          <HeroSection></HeroSection>
+          {/* <HeroSection></HeroSection> */}
           <Header></Header>
           <Services></Services>
           <Works></Works>
